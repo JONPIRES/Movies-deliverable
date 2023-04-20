@@ -5,6 +5,7 @@ const NavBar = () => {
   return (
     <nav>
       <Link to="/all-movies">All Movies</Link>
+      <Link to="/actors">All Actors</Link>
     </nav>
   );
 };
