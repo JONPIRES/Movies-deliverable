@@ -1,0 +1,17 @@
+.actor-card {
+  margin: 2%;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.actors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

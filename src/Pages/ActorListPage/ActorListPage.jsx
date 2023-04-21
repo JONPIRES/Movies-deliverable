@@ -9,9 +9,14 @@ const ActorListPage = () => {
       return actorSet.add(actor);
     });
   });
-  actorSet.map((actor) => {
-    return <ActorCard actor={actor} />;
-  });
+  const actorArr = Array.from(actorSet);
+  return (
+    <div className="actors">
+      {actorArr.map((actor) => {
+        return <ActorCard img="https://picsum.photos/200/302" actor={actor} />;
+      })}
+    </div>
+  );
 };
 
 export default ActorListPage;

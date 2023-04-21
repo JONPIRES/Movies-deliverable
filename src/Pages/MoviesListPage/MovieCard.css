@@ -25,3 +25,16 @@
 .card h1 {
   font-size: medium;
 }
+
+a {
+  text-decoration: none;
+  margin: 0.5%;
+}
+a:link,
+a:visited {
+  color: rgb(169, 211, 233);
+}
+
+a:hover {
+  color: rgb(229, 103, 103);
+}

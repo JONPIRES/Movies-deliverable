@@ -6,6 +6,7 @@ import LoginPage from "../LoginPage/LoginPage";
 import MoviesListPage from "../MoviesListPage/MoviesListPage";
 import MovieDetailPage from "../MovieDetailPage/MovieDetailPage";
 import ActorListPage from "../ActorListPage/ActorListPage";
+import ActorDetailPage from "../ActorListPage/ActorDetailPage";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -20,6 +21,7 @@ function App() {
             <Route path="/all-movies" element={<MoviesListPage />} />
             <Route path="/movies/:movieName" element={<MovieDetailPage />} />
             <Route path="/actors" element={<ActorListPage />} />
+            <Route path="/actors/:actorName" element={<ActorDetailPage />} />
           </Routes>
         </>
       ) : (
